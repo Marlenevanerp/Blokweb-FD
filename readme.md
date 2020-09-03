@@ -1,12 +1,12 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Marlène van Erp
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. -bron 1- www.zara.com 
 2. -bron 2-
 3. -...-
 
@@ -62,10 +62,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je opdracht:** -https://www.zara.com/nl/
 
-**Screenshot(s):** ![alt text](http://url/image/Home.PNG)
+**Screenshot(s):** 
 
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 
 ![mirror](images/Home.PNG)
 ![mirror](images/collectie.PNG)
@@ -76,6 +76,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ![mirror](images/kledingcloseup.png)
 
 **Breakdown-schets(en):**
-![mirror](Breakdownschets_week1_FD.jpg)
+![mirror](images/Breakdownschets_week1_FD.jpg)
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
