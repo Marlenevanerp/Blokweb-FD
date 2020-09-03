@@ -56,16 +56,26 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** -Rood
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** - surface plane-
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** -https://www.zara.com/nl/
 
-**Screenshot(s):**
+**Screenshot(s):** ![alt text](http://url/image/Home.PNG)
+
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
+![mirror](images/Home.PNG)
+![mirror](images/collectie.PNG)
+![mirror](images/joinlife.PNG)
+![mirror](images/footer.PNG)
+![mirror](images/content.png)
+![mirror](images/kleding.png)
+![mirror](images/kledingcloseup.png)
+
 **Breakdown-schets(en):**
+![mirror](Breakdownschets_week1_FD.jpg)
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
