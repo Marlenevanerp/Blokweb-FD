@@ -11,7 +11,7 @@ img{
 	position: relative;
 }
 
-h2{
+li h2{
 	position: absolute;
 	left:50%; top:50%;
 	margin:0; padding:.5em 1em;
