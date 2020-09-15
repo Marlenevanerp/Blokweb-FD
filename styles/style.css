@@ -7,11 +7,11 @@ img{
 	margin:0em;
 }
 
-#tekstinhetmidden{
+li:first-of-type{
 	position: relative;
 }
 
-li h2{
+h1{
 	position: absolute;
 	left:50%; top:50%;
 	margin:0; padding:.5em 1em;
