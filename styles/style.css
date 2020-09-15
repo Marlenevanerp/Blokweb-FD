@@ -12,15 +12,31 @@ section{
 
 }
 
-li:first-of-type{
+li{
 	position: relative;
 	text-align: none;
+	list-style: none;
 }
 
 h1{
 	position: absolute;
-	left:50%; top:7em;
+	font-size: 2em;
+	left:50%; top:5.8em;
 	margin:0; padding:.5em 1em;
 	text-align:center;
  	transform:translate(-50%, -50%);
+ 	text-decoration: none;
+ 	list-style: none;
+ 	color: white;
+}
+p{
+	position: absolute;
+	font-size: 1em;
+	left:50%; top:5.8em;
+	margin:0; padding:.5em 1em;
+	text-align:center;
+ 	transform:translate(-50%, -50%);
+ 	text-decoration: none;
+ 	list-style: none;
+ 	color: white;
 }
