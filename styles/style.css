@@ -31,12 +31,13 @@ h1{
 }
 p{
 	position: absolute;
-	font-size: 1em;
-	left:50%; top:5.8em;
+	font-size: 13px;
+	left:50%; top:17.5em;
 	margin:0; padding:.5em 1em;
 	text-align:center;
  	transform:translate(-50%, -50%);
  	text-decoration: none;
  	list-style: none;
  	color: white;
+ 	width: 70%;
 }
