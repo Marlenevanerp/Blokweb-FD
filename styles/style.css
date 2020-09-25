@@ -8,7 +8,7 @@
 main {
   height: 100vh;
   width: 100%;
-  display: inline-block;
+
 }
 
 /* Bottom Navigation */
@@ -17,7 +17,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: white;  
   text-align: center;
 }
 
@@ -35,13 +35,26 @@ footer nav ul li {
 }
 
 /* Main images and content */
-section {
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+section:first-of-type {
+  width: 100%;  
   text-align: center;
+  margin:0;
+  top:50%;
+}
+
+section:nth-of-type(2){
+  width: 100%;  
+  text-align: center;
+  margin:0;
+  padding:0px;
+}
+
+section{
+  width: 100%;  
+  margin:0;
+  padding:0;
+  position: absolute;
+
 }
 
 section h2 {
@@ -72,15 +85,8 @@ section button {
 img{
 	width: 100%;
 	margin: 0;
+	display: block;
 }
 
-.center {
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, 50%);
-}
 
-.center2 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
