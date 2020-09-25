@@ -11,6 +11,72 @@ main {
 
 }
 
+
+/* Main images and content */
+section:first-of-type {
+  width: 100%;  
+  text-align: center;
+  margin:0;
+}
+
+section{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+section h2 {
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  font-size: 3rem;
+  margin: 0 0 0.6rem 0;
+}
+
+section > div {
+  font-size: 0.9rem;
+  color: white;
+  width: 100%;
+  font-weight: normal;
+  top:50%;
+  background-color: rgba(0,0,0,0.5);
+  border: 1px white;
+  border-style: solid;
+
+}
+
+section a {
+  padding: 0.5rem 2.2rem;
+  border: 1px white;
+  border-style: solid;
+  background-color: transparent;
+  color: #fff;
+  margin: 1rem 0 0 0;
+}
+
+.section-1 {
+  background-image: url("../images/zaraafbeelding8.jpg");
+}
+
+.section-2 {
+  background-image: url("../images/zaraafbeelding9.jpg");
+}
+
+.section-3 {
+  background-image: url("../images/zaraafbeelding6.jpg");
+}
+
+.section-4 {
+  background-image: url("../images/zaraafbeelding11.jpg");
+ 
+}
+
+
 /* Bottom Navigation */
 footer {
   position: fixed;
@@ -33,60 +99,4 @@ footer nav ul li {
   font-size: 1.1rem;
   padding: 0 8px 15% 8px;
 }
-
-/* Main images and content */
-section:first-of-type {
-  width: 100%;  
-  text-align: center;
-  margin:0;
-  top:50%;
-}
-
-section:nth-of-type(2){
-  width: 100%;  
-  text-align: center;
-  margin:0;
-  padding:0px;
-}
-
-section{
-  width: 100%;  
-  margin:0;
-  padding:0;
-  position: absolute;
-
-}
-
-section h2 {
-  color: white;
-  font-weight: bold;
-  white-space: nowrap;
-  font-size: 3rem;
-  margin: 0 0 0.6rem 0;
-}
-
-section p,
-h5 {
-  font-size: 0.9rem;
-  color: white;
-  width: 100%;
-  font-weight: normal;
-}
-
-section button {
-  padding: 0.5rem 2.2rem;
-  border: 1px white;
-  border-style: solid;
-  background-color: transparent;
-  color: #fff;
-  margin: 1rem 0 0 0;
-}
-
-img{
-	width: 100%;
-	margin: 0;
-	display: block;
-}
-
-
 
