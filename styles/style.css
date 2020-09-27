@@ -142,22 +142,46 @@ footer nav ul li {
   font-size: 1.1rem;
   padding: 0 8px 15% 8px;
 }
-
-/*pagina 2*/
-.kleding_artikelen{
+/*
+@media (min-width: 45em){
+	body {
+	
+}	
+	main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
+}
+
+@media (min-width: 75em){
+	body {
+
+}	
+	main {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+}
+*/ 
+/*pagina 2*/
+.kleding_artikelen{
 	padding: 0 1em;
-	width: 100%;
+	display: grid;
+	height: 100%;
+
 }
 
 .kleding_soort{
 	padding: 1em;
 	text-align: left;
+	width: 100%;
 
 }
 img{
-	width: 100%;
+	width: 80%;
+	display: flex;
+	background-size: cover;
 }
 
+article{
+	margin-top: 5em;
+	width: 100%;
+}
