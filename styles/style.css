@@ -15,6 +15,19 @@ header{
 	background: none;
 	position: fixed;
 }
+
+.sr-only{
+	overflow: hidden;
+	border:0;
+	clip: rect(1px, 1px, 1px,1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	padding:0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
 header > button{
 	margin: 0.5rem 0rem 0rem 1rem;
 	width: 32px;
@@ -22,7 +35,6 @@ header > button{
 	padding: 7px 4px;
 	background-color: rgba(0,0,0,0);
 	border: none;
-
 }
 header > button span{
 	display: block;
@@ -75,7 +87,6 @@ section > div {
   justify-content: space-between;
   flex-direction: column;
 
-
 }
 
 section a {
@@ -86,7 +97,6 @@ section a {
   color: #fff;
   margin: 1rem;
   text-decoration: none;
-
 
 }
 
@@ -131,5 +141,23 @@ footer nav ul li {
   font-weight: 700;
   font-size: 1.1rem;
   padding: 0 8px 15% 8px;
+}
+
+/*pagina 2*/
+.kleding_artikelen{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	padding: 0 1em;
+	width: 100%;
+}
+
+.kleding_soort{
+	padding: 1em;
+	text-align: left;
+
+}
+img{
+	width: 100%;
 }
 
