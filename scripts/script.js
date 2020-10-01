@@ -1,6 +1,10 @@
 // JavaScript Document
-$(document).ready(function(){
-	$('#nav-icon').click(function(){
-		$(this).toggleClass('open');
-	});
-});
+var document.querySelector("header button")
+
+function toggleClass(){
+	header.classList.toggle('menu');
+}
+
+menuButton.addEventListener("click", toggleClass);
+
+
