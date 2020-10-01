@@ -45,57 +45,40 @@ header > button span{
 	z-index: 1;
 	position: relative;
 }
-#nav-icon{
-  width: 60px;
-  height: 45px;
-  position: relative;
-  margin: 50px auto;
-  transform: rotate(0deg);
-  transition: .5s ease-in-out;
-  cursor: pointer;
-  
-}
-#nav-icon span{
-  display: block;
-  position: absolute;
-  height: 9px;
-  width: 100%;
-  background: black;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transition: .25s ease-in-out;
-}
 
-#nav-icon span:nth-child(1){
-  top: 0px;
-}
-
-#nav-icon span:nth-child(2){
-  top:18px;
-}
-
-#nav-icon span:nth-child(3){
-  top:36px;
-}
-
-#nav-icon.open span:nth-child(1){
-  top:18px; 
-  transform: rotate(135deg);
-}
-
-#nav-icon.open span:nth-child(2){
-  opacity: 0;
-  left: -60px;
-}
-
-#nav-icon.open span:nth-child(3){
-  top: 18px;
-  transform: rotate(-135deg);
-}
 /* Main images and content */
+#slideset1{
+  height: 10em;
+  position: relative;
+}
+#slideset1 > *{
+  visibility: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  animation: 5s autoplay1 infinite;
+}
 
-section{
+@keyframes autoplay1{
+  0% {visibility: visible}
+  33.33% {visibility: hidden}
+
+}
+#slideset1:nth-child(1){
+  animation-delay: 0;
+
+}
+
+#slideset1:nth-child(2){
+  animation-delay: 4s;
+
+}
+
+#slideset1:nth-child(3){
+  animation-delay: 8s;
+
+}
+section {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -139,10 +122,9 @@ section > div {
 section a {
   padding: 0.5rem 2.2rem;
   border: 1px white;
-  border-style: solid;
-  background-color: rgba(0,0,0,0.5);
-  color: #fff;
-  margin: 1rem;
+  background-color: white;
+  color: black;
+  margin: 1rem 6rem 0 6rem;
   text-decoration: none;
 
 }
