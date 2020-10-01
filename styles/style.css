@@ -58,14 +58,7 @@ header > button span{
   animation: 5s autoplay1 infinite;
 }
 
-@keyframes{
 
-   0%   {background-image: url("../images/zaraafbeelding8.jpg");}
-   25%  {background-image: url("../images/zaraafbeelding9.jpg");}
-   50%  {background-image: url("../images/zaraafbeelding6.jpg");}
-   100% {background-image: url("../images/zaraafbeelding11.jpg");}
-
-}
 
 section {
   height: 100%;
