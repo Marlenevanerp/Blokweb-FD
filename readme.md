@@ -42,11 +42,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![mirror](images/voortgang2.1.png)
+![mirror](images/Voortgang2.png)
+![mirror](images/Voortgang2.0.png)
 
 ### Agenda voor meeting
 
 -28 september-
+agendapunten:
+keyframes (slideshow)
+grids
+Feedback 
 
 
 
