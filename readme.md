@@ -32,19 +32,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
-
-
-## Voortgang 1 (week 3)
-
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
+-dit ging goed & dit ging slecht
+Het maken van de tweede pagina ging goed. Had alleen wel moeite met mediaquery, grids en ik probeerde een slideshow te maken met keyframes. Alleen ik hing een beetje vast omdat ik maar 1 image naar voren kreeg die knipperde. 
 **Screenshot(s):**
 
 ![mirror](images/voortgang2.1.png)
 ![mirror](images/Voortgang2.png)
 ![mirror](images/Voortgang2.0.png)
+
+## Voortgang 1 (week 3)
+
+### Stand van zaken
+
 
 ### Agenda voor meeting
 
