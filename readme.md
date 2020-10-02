@@ -50,7 +50,7 @@ Het maken van de tweede pagina ging goed. Had alleen wel moeite met mediaquery, 
 -28 september-
 agendapunten:
 keyframes (slideshow)
-grids
+grids,
 Feedback 
 
 
