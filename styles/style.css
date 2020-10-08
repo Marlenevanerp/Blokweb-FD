@@ -99,7 +99,13 @@ section a {
   color: black;
   margin: 1rem 6rem 0 6rem;
   text-decoration: none;
+  transition: 0.6s;
 
+}
+
+section a:hover {
+  background-color: black;
+  color: white;
 }
 
 .section-1 {
@@ -144,7 +150,7 @@ footer nav ul li {
   font-size: 1.1rem;
   padding: 10px  8px 10px 0;
 }
-/*
+
 @media (min-width: 45em){
 	body {
 	
@@ -162,5 +168,9 @@ footer nav ul li {
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr;
 }
-*/ 
+
+main > section:last-of-type{
+  grid-column: span 3; 
+
+}
 
