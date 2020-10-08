@@ -55,7 +55,8 @@ main > section{
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2em;
+  grid-gap: 4em;
+
 }
 
 main > section{
@@ -75,3 +76,32 @@ img{
 	padding-top: 3rem;
 }
 
+.card-container {
+	cursor: pointer;
+ 	height: 150px;
+  	position: relative;
+  	perspective: 600px;
+}
+.card {
+  	height: 100%;
+  	position: relative;
+  	transform-style: preserve-3d;
+  	transition: all 1s ease-in-out;
+  	width: 100%;
+  	text-align: center;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+ }
+.card .back {
+  transform: rotateY(180deg);
+  background-color: #F8F7F8;
+}
