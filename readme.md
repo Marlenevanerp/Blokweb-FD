@@ -26,6 +26,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+Ik heb deze week gewerkt aan animaties. Dit ging matig omdat ik vast liep meet een cardflip via css. Het werkt alleen de tekst komt boven de card in plaats gecentered en mooi. Wat wel goed ging is mediaquerie en dat werkt! helaas probeerde ik ook javascript uit maar dat heb ik even gelaten voor in de vakantie. 
+
 
 
 ## Voortgang 2 (week 5)
@@ -46,6 +48,10 @@ Het maken van de tweede pagina ging goed. Had alleen wel moeite met mediaquery, 
 
 
 ### Agenda voor meeting
+
+-9 oktober-
+Animaties / transistions
+Mediaquerie 
 
 -28 september-
 agendapunten:
