@@ -33,18 +33,18 @@ header{
 	word-wrap: normal !important;
 }
 header > button{
-	margin: 0.5rem 0rem 0rem 1rem;
+	margin: 1rem 0rem 0rem 1rem;
 	width: 32px;
 	height: 32px;
-	padding: 7px 4px;
+	padding: 0px 25px;
 	background-color: rgba(0,0,0,0);
 	border: none;
 }
 header > button span{
 	display: block;
-	width: 20px;
+	width: 30px;
 	height: 2px;
-	margin-bottom: 3px;
+	margin-bottom: 6px;
 	background: black;
 	z-index: 1;
 	position: relative;
@@ -60,8 +60,9 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
   text-align: center;
-  margin: 3em;
+  margin: 3em 2em 3em 2em;
 }
 
 section h2 {
@@ -104,6 +105,7 @@ section a {
 
 }
 
+
 section a:hover {
   background-color: black;
   color: white;
@@ -123,7 +125,7 @@ section a:hover {
 
 .section-4 {
   background-image: url("../images/zaraafbeelding11.jpg");
- 
+  back
 }
 
 
