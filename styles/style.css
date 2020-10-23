@@ -30,7 +30,6 @@ header{
 header img{
   width: 15%;
   display: block;
-  padding-top: 2em;
   align-content: center;
   margin: auto;
   max-width: calc(100% - 20px);
@@ -53,15 +52,16 @@ header img{
 	width: 1px;
 	word-wrap: normal !important;
 }
-header > button{
-	margin:auto;
+header > nav > button{
+	margin: 0 31px;
 	width: 32px;
 	height: 32px;
-	padding: 0px 25px;
-	background-color: rgba(0,0,0,0);
+  background-color: transparent;
 	border: none;
+  position: sticky;
 }
-header > button span{
+
+header > nav > button span{
 	display: block;
 	width: 30px;
 	height: 2px;
@@ -69,6 +69,26 @@ header > button span{
 	background: white;
 	z-index: 1;
 	position: relative;
+}
+
+header > nav > ul:first-of-type{
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(-100%);
+  cursor: pointer;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  list-style: none;
+
+}
+
+header > nav > ul > li > a:first-of-type{
+  text-decoration: none;
+  overflow: hidden;
+  color: white;
+  text-transform: uppercase;
+
 }
 
 
@@ -87,34 +107,29 @@ section {
 }
 
 section h2 {
-  color: black;
+  color: white;
   font-weight: bold;
   white-space: nowrap;
   font-size: 3rem;
   margin: 0 0 0.6rem 0;
+  text-transform: uppercase;
 }
 
-section h2:last-of-type{
-  color: white;
-}
+
 
 section h3{
-  color: black;
+  color: white;
   font-weight: bold;
   white-space: nowrap;
   font-size: 1rem;
   margin-top: 1rem;
 }
 
-section h3:last-of-type{
-  color: white;
-}
 section > div{
   font-size: 0.9rem;
-  color: black;
+  color: white;
   font-weight: normal;
-  top:50%;
-  background-color: rgba(255,255,255,0.5);
+  top:5;
   padding-top: 2em;
   padding-bottom: 2em;
   display: flex;
@@ -123,20 +138,20 @@ section > div{
 
 }
 
-section > div:last-of-type{
+section > div:nth-of-type(4){
   display: flex;
   justify-content: flex-end;
   align-items: right;
-  background-color: transparent;
-  color: white;
 }
 
-main > section:last-of-type{
+main > section:nth-of-type(4){
   height: 10em;
   margin-top: 3em;
   display:flex;
   left: 70%;
   justify-content: center;
+  border: 1px solid;
+  border-color: white;
 }
 
 
@@ -188,10 +203,53 @@ section a:hover {
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr;
 }
-  main > section:last-of-type{
+  main > section:nth-of-type(4){
     display: grid;
     grid-column: span 3
   }
 
+
+@media (min-width: 70em){
+  .open{
+    display: flex;
+    justify-content: center;
+    top: 7em;
+    position: absolute;
+  }
+
+  li{
+    padding: 2em;
+    text-align: center;
+    display: inline; 
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+    ul{
+    margin:0;
+    padding:0;
+    height: 50px;
+    position: sticky;
+    transform: translateX(0%);
+
+  }
+
+  header > nav > ul:first-of-type{
+  opacity: 1;
+  z-index: 2;
+  transform: none;
+  cursor: pointer;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  list-style: none;
+
+}
+
+   button{
+    display: none;
+  }
+
+}
 
 
