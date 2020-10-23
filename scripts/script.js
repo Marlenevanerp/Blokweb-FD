@@ -1,17 +1,8 @@
-console.log('script');
-
-var menuButton = document.querySelector ('menu');
-
-var menuList = document.querySelector ('navigatie');
-
-
-
-function toggleMenu(){
-	menuList.classlist.toggle('is-open')
-
+function menuFunction() {
+	var x = document.querySelector(".mobile");
+	if (x.style.display === "block") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "block";
+	}
 }
-
-menuButton.addEventListener('click', toggleMenu);
-
-
-console.log('hoi')
