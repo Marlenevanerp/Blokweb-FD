@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: black;
+  background-color: #000;
 }
 
 html{
@@ -15,84 +15,125 @@ html{
 }
 
 main {
-  height: 100vh;
+  height: 100vh; 
   width: 100%;
-  background-color: black;
-
-}
-
-header{
-	background: black;
-  position: sticky;
-
-}
-
-header img{
-  width: 15%;
-  display: block;
-  align-content: center;
-  margin: auto;
-  max-width: calc(100% - 20px);
-  position: relative;
-  z-index: 2;
-  
-
-
 }
 
 .sr-only{
-	overflow: hidden;
-	border:0;
-	clip: rect(1px, 1px, 1px,1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	padding:0;
-	position: absolute;
-	width: 1px;
-	word-wrap: normal !important;
+  overflow: hidden;
+  border:0;
+  clip: rect(1px, 1px, 1px,1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  padding:0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
-header > nav > button{
-	margin: 0 31px;
-	width: 32px;
-	height: 32px;
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+/* .flex-row {
+  display: flex;
+  order: 2;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
+header nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow: auto;
+  order: 1;
+}
+
+header section button{
+  margin: 0 31px;
+  width: 32px;
+  height: 32px;
   background-color: transparent;
-	border: none;
-  position: sticky;
+  border: none;
 }
 
-header > nav > button span{
-	display: block;
-	width: 30px;
-	height: 2px;
-	margin-bottom: 6px;
-	background: white;
-	z-index: 1;
-	position: relative;
+header section button span{
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 6px;
+  background: white;
+  z-index: 1;
 }
 
-header > nav > ul:first-of-type{
-  opacity: 1;
-  z-index: 2;
-  transform: translateX(-100%);
-  cursor: pointer;
-  position: fixed;
-  margin: 0;
-  bottom: 0;
-  list-style: none;
-
+header img {
+ max-width: 30%;
+ align-self: center;
 }
 
-header > nav > ul > li > a:first-of-type{
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li a {
   text-decoration: none;
   overflow: hidden;
   color: white;
+  padding: 10px;
   text-transform: uppercase;
+}
 
+header nav ul li {
+    padding: 2em 0;
+    margin: 0 3em;
+}
+
+header nav ul li a:hover {
+  border-bottom: solid #FFF 2px;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  transition: border-bottom .3s;
 }
 
 
-section {
+header section {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+
+
+/* Icons */
+.icons {
+  color: white;
+  display: flex;
+}
+
+.icons li {
+  margin: 0;
+  padding: 0 1rem;
+  list-style-type: none;
+  align-self: center;
+}
+
+
+main section {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -106,7 +147,7 @@ section {
   margin: 2em 2em 3em 2em;
 }
 
-section h2 {
+main section h2 {
   color: white;
   font-weight: bold;
   white-space: nowrap;
@@ -116,8 +157,7 @@ section h2 {
 }
 
 
-
-section h3{
+main section h3{
   color: white;
   font-weight: bold;
   white-space: nowrap;
@@ -125,7 +165,7 @@ section h3{
   margin-top: 1rem;
 }
 
-section > div{
+main section div{
   font-size: 0.9rem;
   color: white;
   font-weight: normal;
@@ -138,13 +178,13 @@ section > div{
 
 }
 
-section > div:nth-of-type(4){
+main section div:nth-of-type(4){
   display: flex;
   justify-content: flex-end;
   align-items: right;
 }
 
-main > section:nth-of-type(4){
+main section:nth-of-type(4){
   height: 10em;
   margin-top: 3em;
   display:flex;
@@ -155,7 +195,7 @@ main > section:nth-of-type(4){
 }
 
 
-section a {
+main section a {
   padding: 0.5rem 2.2rem;
   border: 1px white;
   background-color: white;
@@ -167,7 +207,7 @@ section a {
 }
 
 
-section a:hover {
+main section a:hover {
   background-color: black;
   color: white;
 }
@@ -186,70 +226,73 @@ section a:hover {
 
 
 @media (min-width: 45em){
-	body {
-	
-}	
-	main {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-  grid-gap: 3em;
+  
+  body {
+  
+  } 
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+  }
 }
 
-@media (min-width: 75em){
-	body {
 
-}	
-	main {
-		display:grid;
-		grid-template-columns: 1fr 1fr 1fr;
+
+@media (min-width: 75em){
+  body {
+
+} 
+  main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
   main > section:nth-of-type(4){
     display: grid;
     grid-column: span 3
   }
+}
 
+
+
+
+/* Desktop Styles */
 
 @media (min-width: 70em){
   .open{
     display: flex;
     justify-content: center;
     top: 7em;
-    position: absolute;
   }
 
-  li{
-    padding: 2em;
-    text-align: center;
-    display: inline; 
-    margin-left: auto;
-    margin-right: auto;
+  header img {
+    max-width: 20%;
+    align-self: center;
+   }
 
-  }
-    ul{
-    margin:0;
-    padding:0;
-    height: 50px;
-    position: sticky;
-    transform: translateX(0%);
-
+  .desktop {
+    display: flex;
+    overflow: auto;
   }
 
-  header > nav > ul:first-of-type{
-  opacity: 1;
-  z-index: 2;
-  transform: none;
-  cursor: pointer;
-  position: fixed;
-  margin: 0;
-  bottom: 0;
-  list-style: none;
+  header nav {
+    align-self: center;
+  }
 
-}
+  .mobile {
+    display: none !important;
+  }
+
+  .icon-mob {
+    display: none;
+  }
 
    button{
     display: none;
   }
 
 }
+
+
 
 
