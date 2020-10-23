@@ -47,12 +47,6 @@ header {
   display: none;
 }
 
-/* .flex-row {
-  display: flex;
-  order: 2;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
 
 header nav {
   display: flex;
@@ -102,7 +96,7 @@ header nav ul li {
 }
 
 header nav ul li a:hover {
-  border-bottom: solid #FFF 2px;
+  border-bottom: solid #FFF 1px;
   padding: 10px;
 }
 
