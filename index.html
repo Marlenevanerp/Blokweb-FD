@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Zara | Homepagina</title>
 
-	<link href="styles/style.css" rel="stylesheet">
-    <link rel="scripts" type="text/css" href="scripts/script.js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara | Homepagina</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
 </head>
-  <header>
+
+<body>
+    <header>
+
         <img src="./images/zaralogo copy.png" alt="Zarallogo">
         <h1 class="sr-only">Zara</h1>
-        <nav>
-            <button type="button">
-            <span></span>
-            <span></span>
-            <span></span>
+
+        <!-- Navigation Button -->
+        <section>
+            <button type="button" href="javascript:void(0);" onclick="menuFunction()">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
-            <ul id="menu" class="open">
+
+            <ul class="icons icon-mob">
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </section>
+
+        <nav>
+            <ul class="mobile">
                 <li><a href="#">new</a></li>
                 <li><a href="#">collection</a></li>
                 <li><a href="#">heren</a></li>
@@ -26,25 +41,38 @@
                 <li><a href="#">shoes&bags</a></li>
                 <li><a href="#">home</a></li>
             </ul>
+
+            <ul class="desktop">
+                <li><a href="#">new</a></li>
+                <li><a href="#">collection</a></li>
+                <li><a href="#">heren</a></li>
+                <li><a href="#">kinderen</a></li>
+                <li><a href="#">shoes&bags</a></li>
+                <li><a href="#">home</a></li>
+                <ul class="icons">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-shopping-basket"></i></li>
+                </ul>
+            </ul>
         </nav>
     </header>
-<body>
+
     <main>
-        <section  id="New in" class="section-1">
+        <section class="section-1">
             <div>
                 <h2>New in</h2>
                 <p>Explore this week's womenswear pieces of the season curated for you</p>
                 <h3>Autumn Winter Woman collection</h3>
             </div>
-                <a href="dameskleding.html">View</a>
+            <a href="dameskleding.html">View</a>
         </section>
         <section class="section-2">
             <div>
                 <h2>Collection</h2>
-                 <p>Explore this week's womenswear pieces of the season curated for you</p>
+                <p>Explore this week's womenswear pieces of the season curated for you</p>
                 <h3>Autumn Winter Woman collection</h3>
-             </div>
-                <a href="#">View</a>
+            </div>
+            <a href="#">View</a>
         </section>
         <section class="section-3">
             <div>
@@ -52,26 +80,28 @@
                 <p>Explore this week's womenswear pieces of the season curated for you</p>
                 <h3>Autumn Winter Woman collection</h3>
             </div>
-                <a href="#">View</a>
+            <a href="#">View</a>
         </section>
         <section>
             <div>
-                <h2>Join life</h2> 
+                <h2>Join life</h2>
                 <h3>Autumn Winter Woman collection</h3>
             </div>
         </section>
 
         <section>
-            
+
         </section>
-      
+
     </main>
 
 
     <footer>
-       
+
 
     </footer>
+
+    <script src="scripts/script.js"></script>
 
 </body>
 
