@@ -68,6 +68,8 @@ Hoe kan je het beste een hamburger menu opstellen? Met behulp van een svg of op 
 
 ### Verslag van meeting
 
+-
+
 -9 september-
 Aan het begin van de meeting ging het een beetje stroef omdat niemand echt wat had voorbereid, maar er waren wel wat vragen die we uiteindelijk hebben behandeld. Ook moest elk van ons onze code laten zien. De docent gaf hier en daar wat tips over onze code en of het overzichtelijk eruit ziet.
 
