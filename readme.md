@@ -7,14 +7,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -bron afbeeldingen: www.pinterest.com 
-2. -bron 
-3. -...-
+2. -bron stukjes code: www.w3schools.com
+3. -bron css tricks: www.csstricks.com 
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Ik heb de cardflip van vorige keer weggehaald want het was echt een chaos op het scherm. Ik heb geexperimenteerd met het responsive maken van mijn navbar EN DAT IS GELUKT. 
 
 **Screenshot(s):**
 
@@ -68,7 +69,8 @@ Hoe kan je het beste een hamburger menu opstellen? Met behulp van een svg of op 
 
 ### Verslag van meeting
 
--
+-28 september-
+Dit keer ging het makkelijker, we hadden een aantal vragen opgesteld in de agenda en deze behandeld. De docent gaf een aantal tip bijvoorbeeld de 'Html' in css waarin je een smoother kan plaatsen. Zodat als je op een link klikt het smooth beweegt. Verder ging de docent iedereen af om nog wat feedback te geven.
 
 -9 september-
 Aan het begin van de meeting ging het een beetje stroef omdat niemand echt wat had voorbereid, maar er waren wel wat vragen die we uiteindelijk hebben behandeld. Ook moest elk van ons onze code laten zien. De docent gaf hier en daar wat tips over onze code en of het overzichtelijk eruit ziet.
