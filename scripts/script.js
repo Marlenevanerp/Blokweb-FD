@@ -1,14 +1,17 @@
-
+//javascript
 
 
 function menuFunction() {
-	var x = document.querySelector(".mobile");
-	if (x.style.display === "block") {
-		x.style.display = "none";
+	var menuButton = document.querySelector(".mobile");
+	if (menuButton.style.display === "block") {
+		menuButton.style.display = "none";
 	} else {
-		x.style.display = "block";
+		menuButton.style.display = "block";
 	}
 }
 
+//eventlisteners
+
+addEventListener('click', menuFunction)
 
 // bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar //
