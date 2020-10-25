@@ -15,8 +15,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Eerste instantie wilde ik de zara site gaan namaken, maar uiteindelijk heb ik hem verbeterd. Het namaken werd op een gegeven moment heel lastig. 
 Ik heb de cardflip van vorige keer weggehaald want het was echt een chaos op het scherm. Ik heb geexperimenteerd met het responsive maken van mijn navbar EN DAT IS GELUKT. 
 
+Wat ik lastig vond is het centeren van mijn video. Kreeg het maar niet voor elkaar. 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
