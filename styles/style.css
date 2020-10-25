@@ -17,6 +17,7 @@ html{
 main {
   height: 100vh; 
   width: 100%;
+  margin: auto;
 }
 
 .sr-only{
@@ -138,7 +139,7 @@ main section {
   background-size: cover;
   align-items: center;
   text-align: center;
-  margin: 2em 2em 3em 2em;
+  margin: 3em 2em 0em 2em;
 }
 
 main section h2 {
@@ -172,11 +173,12 @@ main section div{
 
 }
 
-main section div:nth-of-type(4){
+main > section > div:nth-of-type(4){
   display: flex;
   justify-content: flex-end;
   align-items: right;
 }
+
 
 main section:nth-of-type(4){
   height: 10em;
@@ -188,7 +190,20 @@ main section:nth-of-type(4){
   border-color: white;
 }
 
+main > section:nth-of-type(5) >video{
+  display: block;
+  width: 90%;
+  margin-left: 10em;
+}
 
+main > section:nth-of-type(5){
+  margin:0;
+  display: flex;
+  width: 180%;
+  flex-direction: column;
+  justify-content: center;
+  padding:0;
+}
 main section a {
   padding: 0.5rem 2.2rem;
   border: 1px white;
@@ -218,12 +233,7 @@ main section a:hover {
   background-image: url("../images/zaraafbeelding6.jpg");
 }
 
-#myVideo{
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
 @media (min-width: 45em){
   
   body {
@@ -233,6 +243,14 @@ main section a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3em;
+  }
+  main > section:nth-of-type(4){
+    display: grid;
+    grid-column: span 2;
+  }
+  main > section:nth-of-type(3){
+    display: grid;
+    grid-column: span 2;
   }
 }
 
@@ -244,13 +262,10 @@ main section a:hover {
 } 
   main {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-  main > section:nth-of-type(4){
-    display: grid;
-    grid-column: span 3
+    grid-template-columns: 1fr 1fr;
 
   }
+
 }
 
 
