@@ -98,6 +98,7 @@ header nav ul li a:hover {
 
 header nav ul li a:hover {
   transition: border-bottom .3s;
+  color: lightgreen;
 }
 
 
@@ -207,8 +208,13 @@ main section a {
 main section a:hover {
   background-color: black;
   color: white;
+
 }
 
+:focus{
+  outline-color: lightgreen;
+  box-shadow: 0 7px 20px #0005;
+}
 .section-1 {
   background-image: url("../images/zaraafbeelding8.jpg");
 }
@@ -255,6 +261,7 @@ footer form input[type=text]{
 footer form input::placeholder{
   color: white;
 }
+
 @media (min-width: 45em){
   
   main section {
@@ -275,6 +282,8 @@ footer form input::placeholder{
     display: grid;
     grid-column: span 2;
   }
+
+
   main > section:nth-of-type(5){
     display: grid;
     grid-column: span 2;
