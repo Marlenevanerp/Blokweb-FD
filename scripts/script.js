@@ -1,3 +1,6 @@
+
+
+
 function menuFunction() {
 	var x = document.querySelector(".mobile");
 	if (x.style.display === "block") {
