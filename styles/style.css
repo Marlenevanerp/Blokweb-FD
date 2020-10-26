@@ -216,10 +216,13 @@ main section a:hover {
 
 }
 
+/*gebruik van keyboard */
 :focus{
   outline-color: lightgreen;
   box-shadow: 0 7px 20px #0005;
 }
+
+
 .section-1 {
   background-image: url("../images/zaraafbeelding8.jpg");
 }
