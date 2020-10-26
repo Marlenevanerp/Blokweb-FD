@@ -1,8 +1,7 @@
 //javascript
-
+	var menuButton = document.querySelector(".mobile");
 
 function menuFunction() {
-	var menuButton = document.querySelector(".mobile");
 	if (menuButton.style.display === "block") {
 		menuButton.style.display = "none";
 	} else {
