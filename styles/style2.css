@@ -102,6 +102,7 @@ header nav ul li a:hover {
   color: lightgreen;
 }
 
+/*gebruik van keyboard */
 :focus{
   outline-color: lightgreen;
   box-shadow: 0 7px 20px #0005;
