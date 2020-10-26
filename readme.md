@@ -22,6 +22,11 @@ Wat ik lastig vond is het centeren van mijn video. Kreeg het maar niet voor elka
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+![mirror](images/eindresultaat.png)
+![mirror](images/eindresultaat2.png)
+![mirror](images/eindresultaat3.png)
+![mirror](images/eindresultaat4.png)
+![mirror](images/eindresultaat5.png)
 
 
 
@@ -31,7 +36,9 @@ Wat ik lastig vond is het centeren van mijn video. Kreeg het maar niet voor elka
 
 Ik heb deze week gewerkt aan animaties. Dit ging matig omdat ik vast liep meet een cardflip via css. Het werkt alleen de tekst komt boven de card in plaats gecentered en mooi. Wat wel goed ging is mediaquerie en dat werkt! helaas probeerde ik ook javascript uit maar dat heb ik even gelaten voor in de vakantie. 
 
-
+![mirror](images/voortgang3.png)
+![mirror](images/Voortgang3.1.png)
+![mirror](images/Voortgang3.2.png)
 
 ## Voortgang 2 (week 5)
 
