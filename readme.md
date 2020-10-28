@@ -89,7 +89,7 @@ Aan het begin van de meeting ging het een beetje stroef omdat niemand echt wat h
 
 **Je startniveau:** -Blauw-
 
-**Je focus:** -surface plane-
+**Je focus:** -responsive-
 
 **Je opdracht:** -https://www.zara.com/nl/-
 
