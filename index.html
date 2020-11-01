@@ -9,19 +9,18 @@
     <link href="styles/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="">
 
 </head>
 
 <body>
     <header>
 
-        <img src="./images/zaralogo copy.png" alt="Zarallogo">
+        <a href="index.html"></a><img src="./images/zaralogocopy.png" alt="Zarallogo">
         <h1 class="sr-only">Zara</h1>
 
         <!-- Navigation Button -->
-        <section>
-            <button type="button">
+        <div>
+            <button id="button" type="button">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -31,10 +30,10 @@
                 <li><i class="fas fa-search"></i></li>
                 <li><i class="fas fa-shopping-basket"></i></li>
             </ul>
-        </section>
+        </div>
         
-        <nav class="navbar">
-            <ul class="mobile">
+        <nav>
+            <ul id="navbar "class="mobile">
                 <li><a href="#">new</a></li>
                 <li><a href="#">collection</a></li>
                 <li><a href="#">heren</a></li>
@@ -50,68 +49,69 @@
                 <li><a href="#">kinderen</a></li>
                 <li><a href="#">shoes&bags</a></li>
                 <li><a href="#">home</a></li>
-                <ul class="icons">
-                    <li><i class="fas fa-search"></i></li>
-                    <li><i class="fas fa-shopping-basket"></i></li>
-                </ul>
+            </ul> 
+            <ul class="icons">
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="section-1">
-            <div>
-                <h2>New in</h2>
-                <p>Explore this week's womenswear pieces of the season curated for you</p>
-                <h3>Autumn Winter Woman collection</h3>
-            </div>
+<main>
+    <section class="section-1">
+        <div>
+            <h2>New in</h2>
+            <p>Explore this week's womenswear pieces of the season curated for you</p>
+            <h3>Autumn Winter Woman collection</h3>
+        </div>
             <a href="dameskleding.html">View</a>
-        </section>
-        <section class="section-2">
-            <div>
-                <h2>Collection</h2>
-                <p>Explore this week's womenswear pieces of the season curated for you</p>
-                <h3>Autumn Winter Woman collection</h3>
+    </section>
+    <section class="section-2">
+        <div>
+            <h2>Collection</h2>
+            <p>Explore this week's womenswear pieces of the season curated for you</p>
+            <h3>Autumn Winter Woman collection</h3>
             </div>
             <a href="#">View</a>
-        </section>
-        <section class="section-3">
-            <div>
-                <h2>Shoes & bags</h2>
-                <p>Explore this week's womenswear pieces of the season curated for you</p>
-                <h3>Autumn Winter Woman collection</h3>
+    </section>
+    <section class="section-3">
+        <div>
+            <h2>Shoes & bags</h2>
+            <p>Explore this week's womenswear pieces of the season curated for you</p>
+            <h3>Autumn Winter Woman collection</h3>
+        </div>
+            <a href="#">View</a>
+    </section>
+
+    <section>
+        <div>
+            <h2>Join life</h2>
+            <h3>Autumn Winter Woman collection</h3>
             </div>
-                <a href="#">View</a>
-        </section>
+    </section>
 
-        <section>
-            <div>
-                <h2>Join life</h2>
-                <h3>Autumn Winter Woman collection</h3>
-            </div>
-        </section>
+    <section>
+        <h4 class="sr-only">winterfall collection</h4>
+        <video autoplay muted loop id="myVideo">
+            <source src="zarafilmpje.mp4" type="video/mp4">
+        </video>
+    </section>
 
-        <section>
-            <video autoplay muted loop id="myVideo">
-                <source src="zarafilmpje.mp4" type="video/mp4">
-            </video>
-        </section>
+</main>
 
-    </main>
-
-    <footer>
-        <h1>Schrijf u in voor onze newsletter</h1>
-        <form>
-            <input type="text" name="email" placeholder="Voer hier je email in">
-        </form>
-        <ul>
-            <li>instagram</li>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>pinterest</li>
-            <li>youtube</li>
-        </ul>
-    </footer>
+<footer>
+    <h5>Schrijf u in voor onze newsletter</h5>
+    <form>
+        <input type="text" name="email" placeholder="Voer hier je email in">
+    </form>
+    <ul>
+        <li>instagram</li>
+        <li>facebook</li>
+        <li>twitter</li>
+        <li>pinterest</li>
+        <li>youtube</li>
+    </ul>
+</footer>
     <script src="scripts/script.js"></script>
 </body>
 
