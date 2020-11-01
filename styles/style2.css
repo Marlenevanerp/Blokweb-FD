@@ -51,7 +51,7 @@ header nav {
   order: 1;
 }
 
-header section button{
+header div button{
   margin: 0 31px;
   width: 32px;
   height: 32px;
@@ -59,7 +59,7 @@ header section button{
   border: none;
 }
 
-header section button span{
+header div button span{
   display: block;
   width: 30px;
   height: 2px;
@@ -108,7 +108,7 @@ header nav ul li a:hover {
   box-shadow: 0 7px 20px #0005;
 }
 
-header section {
+header div {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -131,43 +131,44 @@ header section {
 
 
 
-main > section >img{
+main > article >img{
 	color: white;
 	width: 100%;
 
 }
 
 
-main > section{
+main > article {
 	margin-top: 3em;
 	margin: 3em 2em 0em 2em;
 
 }
 
-main > section > p{
+
+main > article > p{
 	color: white;
 	text-transform: uppercase;
 	font-size: 13px;
 	padding-top: 0.5em;
 }
 
-main > section:nth-of-type(3) > p{
+main > article:nth-of-type(3) > p{
 	text-align: center;
 }
 
-main > section:nth-of-type(3) > h2{
+main > article:nth-of-type(3) > h2{
 	text-align: center;
 
 }
 
-main > section:nth-of-type(3){
+main > article:nth-of-type(3){
 	color: white;
 	font-size: 2em;
 	display: block;
 	margin-bottom: 2em;
 }
 
-main section h2{
+main article h2{
 	color: white;
 	text-transform: uppercase;
 	font-size: 1em;
@@ -177,12 +178,14 @@ main section h2{
 footer {
   color: white;
   text-transform: uppercase;
-  font-size: 1em;
   text-align: center;
   padding-top: 8em;
 
 }
 
+footer > h3 {
+  font-size: 3em;
+}
 
 footer ul{
   list-style: none;
@@ -193,6 +196,7 @@ footer ul{
 footer ul li{
   display: inline-block;
   padding: 2em;
+  font-size: 1em;
 }
 
 
@@ -219,7 +223,7 @@ footer form input::placeholder{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-   main > section:nth-of-type(3){
+   main > article:nth-of-type(3){
     display: grid;
     grid-column: span 2;
   }
@@ -235,7 +239,7 @@ footer form input::placeholder{
     grid-template-columns: 1fr 1fr;
 }
 
-  main > section:nth-of-type(3){
+  main > article:nth-of-type(3){
     display: grid;
     grid-column: span 2;
   }
