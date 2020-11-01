@@ -1,16 +1,22 @@
 //javascript
-	var menuButton = document.querySelector(".mobile");
+	var openKnop = document.querySelector('#button');
+	var sluitenKnop = document.querySelector('#button');
+	var menu = document.querySelector("#navbar");
 
-function menuFunction() {
-	if (menuButton.style.display === "block") {
-		menuButton.style.display = "none";
-	} else {
-		menuButton.style.display = "block";
-	}
+function sluiten (){
+	menu.classList.remove('open');
+	menu.classList.add('dicht');
+}
+
+function openen(){
+	menu.classList.remove('dicht');
+	menu.classList.add('open');
 }
 
 //eventlisteners
 
-addEventListener('click', menuFunction)
+	openKnop.addEventListener('click', openen);
+	sluitenKnop.addEventListener('click', sluiten)
+
 
 // bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar //
