@@ -39,21 +39,19 @@ header {
 }
 
 .mobile {
-  display: none;
+  max-height: 0;
 }
 
 .desktop {
   display: none;
 }
 
-.navbar{
-  transition: all 0.6s ease-out
-}
 
 header nav {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  overflow: auto;
   order: 1;
 }
 
@@ -75,19 +73,25 @@ header div button span{
 
 header a img {
  max-width: 30%;
- align-self: center;
+ display: block;
+ margin: auto;
 }
 
 .open {
   right:0;
-  transition: 1s;
-  display: block;
+  transition: 1s ease-out;
+  max-height: 35em;
+  opacity: 2;
 }
-.dicht {
-  transition: 1s;
-}
+
 header nav ul {
   list-style-type: none;
+}
+
+header > nav > ul:nth-of-type(2) li > i{
+  color: white;
+  display: flex;
+
 }
 
 header nav ul li a {
@@ -278,7 +282,6 @@ footer form input[type=text]{
   box-shadow: none;
   padding: 1em 0em;
   border-bottom: 1px solid white;
-  width: 25em;
   margin-top: 7em;
   color: white;
   font-size: 1em;
@@ -322,6 +325,8 @@ footer form input::placeholder{
   header section {
     margin: 0 0 2em 0;
   }
+   footer > form > input[type=text]{
+    width: 25em;
 }
 
 
@@ -347,6 +352,8 @@ footer form input::placeholder{
   header section {
     overflow: hidden;
   }
+   footer > form > input[type=text]{
+    width: 25em;
 
 }
 
@@ -391,6 +398,8 @@ footer form input::placeholder{
   main section {
     margin: 0;
   }
+   footer > form > input[type=text]{
+    width: 25em;
 
 }
 
