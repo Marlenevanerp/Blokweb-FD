@@ -12,6 +12,7 @@ body{
 
 main {
   width: 100%;
+  margin: auto;
 }
 
 .sr-only{
@@ -35,7 +36,7 @@ header {
 }
 
 .mobile {
-  display: none;
+   max-height: 0;
 }
 
 .desktop {
@@ -43,14 +44,10 @@ header {
 }
 
 .open {
-  bottom: 20%;
+  right:0;
   transition: 1s;
-  display: block;
-}
-
-.dicht {
-  top: 100%;
-  transition: 5s;
+  max-height: 35em;
+  opacity: 2;
 }
 
 
@@ -58,7 +55,7 @@ header nav {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  overflow: smooth;
+  overflow: auto;
   order: 1;
 }
 
@@ -79,13 +76,11 @@ header div button span{
   z-index: 1;
 }
 
-header a:first-of-type {
- align-items: center;
-}
 
-header a:first-of-type > img{
-  align-items: center;
-  max-width: 30%;
+header a img {
+ max-width: 30%;
+ display: block;
+ margin: auto;
 }
 
 header nav ul {
@@ -104,7 +99,13 @@ header nav ul li a {
 
 header nav ul li {
     padding: 2em 0;
-    margin: 0 3em;
+    margin: 0 2em;
+}
+
+header > nav > ul:nth-of-type(2) li > i{
+  color: white;
+  display: flex;
+
 }
 
 header nav ul li a:hover {
@@ -127,6 +128,7 @@ header div {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+   margin: 0 0 0 0;
 }
 
 
@@ -221,7 +223,6 @@ footer form input[type=text]{
   box-shadow: none;
   padding: 1em 0em;
   border-bottom: 1px solid white;
-  width: 25em;
   margin-top: 7em;
   color: white;
   font-size: 1em;
@@ -242,6 +243,9 @@ footer form input::placeholder{
     display: grid;
     grid-column: span 2;
   }
+   footer > form > input[type=text]{
+    width: 25em;
+
 }
 
 
@@ -258,6 +262,9 @@ footer form input::placeholder{
     display: grid;
     grid-column: span 2;
   }
+  footer > form > input[type=text]{
+    width: 25em;
+  } 
 }
 
 
@@ -296,5 +303,6 @@ footer form input::placeholder{
    button{
     display: none;
   }
-
+    footer > form > input[type=text]{
+    width: 25em;
 }
