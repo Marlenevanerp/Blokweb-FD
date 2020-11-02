@@ -74,7 +74,7 @@ header div button span{
   z-index: 1;
 }
 
-header img {
+header a img {
  max-width: 30%;
  align-self: center;
 }
@@ -82,13 +82,11 @@ header img {
 .open {
   right:0;
   transition: 1s;
+  display: block;
 }
-
-.dicht{
-  right:100%;
+.dicht {
   transition: 1s;
 }
-
 header nav ul {
   list-style-type: none;
 }
@@ -317,9 +315,6 @@ footer form input::placeholder{
     grid-column: span 2;
   }
 
-  .mobile {
-    display: none;
-  }
   
   .desktop {
     display: none;
@@ -383,7 +378,7 @@ footer form input::placeholder{
   }
 
   .mobile {
-    display: none !important;
+    display: none;
   }
 
   .icon-mob {
