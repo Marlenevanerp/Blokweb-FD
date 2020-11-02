@@ -42,12 +42,22 @@ header {
   display: none;
 }
 
+.open {
+  bottom: 20%;
+  transition: 1s;
+  display: block;
+}
+.dicht {
+  top: 100%;
+  transition: 5s;
+}
+
 
 header nav {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  overflow: auto;
+  overflow: smooth;
   order: 1;
 }
 
@@ -68,7 +78,7 @@ header div button span{
   z-index: 1;
 }
 
-header img {
+header a img {
  max-width: 30%;
  align-self: center;
 }
