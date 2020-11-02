@@ -75,12 +75,8 @@ header div button span{
 }
 
 header a img {
-  max-width: 30%;
-  align-self: center;
-  padding-top: 1em;
-  margin: auto;
-  max-width: calc(100% - 20px);
-  z-index: 2;
+ max-width: 30%;
+ align-self: center;
 }
 
 .open {
