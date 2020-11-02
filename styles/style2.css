@@ -137,6 +137,8 @@ header div {
 .icons {
   color: white;
   display: flex;
+  margin-left: auto;
+  margin-right: 2em;
 }
 
 .icons li {
