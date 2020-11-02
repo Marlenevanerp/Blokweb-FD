@@ -47,6 +47,7 @@ header {
   transition: 1s;
   display: block;
 }
+
 .dicht {
   top: 100%;
   transition: 5s;
@@ -78,9 +79,13 @@ header div button span{
   z-index: 1;
 }
 
-header a img {
- max-width: 30%;
- align-self: center;
+header a:first-of-type {
+ align-items: center;
+}
+
+header a:first-of-type > img{
+  align-items: center;
+  max-width: 30%;
 }
 
 header nav ul {
@@ -253,6 +258,7 @@ footer form input::placeholder{
     display: grid;
     grid-column: span 2;
   }
+}
 
 
 /* Desktop Styles */
