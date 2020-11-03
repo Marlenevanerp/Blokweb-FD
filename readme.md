@@ -14,6 +14,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
+-HER-
+Ik heb voor de HER de sections in dameskleding.html veranderd in articles en een aantal transitions toegevoegd. Ook heb ik nog even wat extra details eraan toegevoegd. Zoals: als je de pagina naar telefoon of tablad size zet zijn de hovers weg. Op de telefoon en tablad size is de active state juist hier de focus. 
+
+Ook heb ik geen inline javascript meer gebruikt. 
+
 -dit ging goed & dit was lastig-
 Eerste instantie wilde ik de zara site gaan namaken, maar uiteindelijk heb ik hem verbeterd. Het namaken werd op een gegeven moment heel lastig. 
 Ik heb de cardflip van vorige keer weggehaald want het was echt een chaos op het scherm. Ik heb geexperimenteerd met het responsive maken van mijn navbar EN DAT IS GELUKT. 
