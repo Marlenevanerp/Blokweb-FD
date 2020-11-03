@@ -31,6 +31,8 @@ main {
   word-wrap: normal !important;
 }
 
+/*header*/
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -138,6 +140,7 @@ header div {
   align-self: center;
 }
 
+/* main*/ 
 
 main section {
   display: flex;
@@ -237,6 +240,7 @@ main section a:hover {
   box-shadow: 0 7px 20px #0005;
 }
 
+/*achtergronden sections*/
 
 .section-1 {
   background-image: url("../images/zaraafbeelding8.jpg");
@@ -250,6 +254,7 @@ main section a:hover {
   background-image: url("../images/zaraafbeelding6.jpg");
 }
 
+/*footer*/
 
 footer {
   color: white;
@@ -278,6 +283,7 @@ footer > ul > li:hover{
   transition: letter-spacing .5s;
   border-bottom: solid lightgrey 1px;
   letter-spacing: 3px;
+  cursor: pointer;
 }
 
 footer form input[type=text]{
@@ -294,6 +300,7 @@ footer form input::placeholder{
   color: white;
 }
 
+/*medaiquery*/
 @media (min-width: 45em){
   
   main section {
@@ -336,8 +343,8 @@ footer form input::placeholder{
   }
    footer > form > input[type=text]{
     width: 25em;
+  }
 }
-
 
 
 @media (min-width: 75em){
@@ -363,7 +370,7 @@ footer form input::placeholder{
   }
    footer > form > input[type=text]{
     width: 25em;
-
+  }
 }
 
 
@@ -409,7 +416,7 @@ footer form input::placeholder{
   }
    footer > form > input[type=text]{
     width: 25em;
-
+  }
 }
 
 
