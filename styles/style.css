@@ -224,14 +224,11 @@ main section a {
   text-decoration: none;
   transition: all 0.3s;
   max-width: 70px;
+  cursor: default;
 }
 
-
-main section a:hover {
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: 0.5s;
-
+main section a:active{
+  background-color: rgba(255,255,255,0.5);
 }
 
 /*gebruik van keyboard */
@@ -279,12 +276,6 @@ footer ul li{
   padding: 2em;
 }
 
-footer > ul > li:hover{
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
-  cursor: pointer;
-}
 
 footer form input[type=text]{
   border: none;
@@ -322,12 +313,10 @@ footer form input::placeholder{
     grid-column: span 2;
   }
 
-
   main > section:nth-of-type(5){
     display: grid;
     grid-column: span 2;
   }
-
   
   .desktop {
     display: none;
@@ -335,13 +324,14 @@ footer form input::placeholder{
 
   header section {
     margin: 0 0 2em 0;
-    }
+  }
 
-    header > div{
-      margin: 0 0 3em 0;
+  header > div{
+    margin: 0 0 3em 0;
 
   }
-   footer > form > input[type=text]{
+
+  footer > form > input[type=text]{
     width: 25em;
   }
 }
@@ -368,8 +358,24 @@ footer form input::placeholder{
   header section {
     overflow: hidden;
   }
-   footer > form > input[type=text]{
+
+  main section a:hover {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+
+  }
+
+  footer > form > input[type=text]{
     width: 25em;
+  }
+
+  footer > ul > li:hover{
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
   }
 }
 
@@ -414,8 +420,23 @@ footer form input::placeholder{
   main section {
     margin: 0;
   }
-   footer > form > input[type=text]{
+
+  main section a:hover {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+  }
+  
+  footer > form > input[type=text]{
     width: 25em;
+  }
+  
+  footer > ul > li:hover{
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
   }
 }
 
