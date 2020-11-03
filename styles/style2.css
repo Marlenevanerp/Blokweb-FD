@@ -240,6 +240,7 @@ footer > ul > li:hover{
   transition: letter-spacing .5s;
   border-bottom: solid lightgrey 1px;
   letter-spacing: 3px;
+  cursor: pointer;
 
 }
 
@@ -288,11 +289,11 @@ footer form input::placeholder{
 @media (min-width: 75em){
   body {
 
-} 
+  } 
   main {
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
   main > section > article:nth-of-type(3){
     display: grid;
@@ -318,6 +319,7 @@ footer form input::placeholder{
     main > section > article > button:hover span {
     letter-spacing: 3px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 }
 /* Desktop Styles */
