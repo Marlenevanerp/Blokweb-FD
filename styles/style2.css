@@ -285,9 +285,10 @@ footer form input::placeholder{
   } 
 
   header nav ul li a:hover {
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
   }
 
    header nav ul li a:active{
@@ -354,9 +355,10 @@ footer form input::placeholder{
   }
 
   header nav ul li a:hover {
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
   }
 
   header nav ul li a:active{
