@@ -175,7 +175,7 @@ main section div{
   font-size: 0.9rem;
   color: white;
   font-weight: normal;
-  top:5;
+  top:0;
   padding-top: 2em;
   padding-bottom: 2em;
   display: flex;
@@ -191,7 +191,6 @@ main section:nth-of-type(3) > a{
 main > section > div:nth-of-type(4){
   display: flex;
   justify-content: flex-end;
-  align-items: right;
 }
 
 
@@ -362,6 +361,7 @@ footer form input::placeholder{
   transition: letter-spacing .5s;
   border-bottom: solid lightgrey 1px;
   letter-spacing: 3px;
+  cursor: pointer;
   }
 
   header nav ul li a:active{
@@ -405,13 +405,14 @@ footer form input::placeholder{
     align-self: center;
    }
 
-    header nav ul li a:hover {
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
+  header nav ul li a:hover {
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
   }
 
-   header nav ul li a:active{
+  header nav ul li a:active{
     cursor: pointer;
   }
 
