@@ -214,7 +214,6 @@ main > section:nth-of-type(5){
   margin:0 auto;
   width: 100%;
   padding: 0;
-  background: green;
 }
 
 main section a {
@@ -275,6 +274,12 @@ footer ul{
 footer ul li{
   display: inline-block;
   padding: 2em;
+}
+
+footer > ul > li:hover{
+  border-bottom: solid #FFF 1px;
+  color: lightgreen;
+  transition: border-bottom .3s;
 }
 
 footer form input[type=text]{
