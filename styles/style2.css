@@ -236,14 +236,6 @@ footer ul li{
   font-size: 1em;
 }
 
-footer > ul > li:hover{
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
-  cursor: pointer;
-
-}
-
 
 footer form input[type=text]{
   border: none;
@@ -307,15 +299,21 @@ footer form input::placeholder{
   main > section > article > button {
     font-size: 1em
   } 
-    footer > form > input[type=text]{
+  footer > form > input[type=text]{
     width: 25em;
   }
+  footer > ul > li:hover{
+    transition: letter-spacing .5s;
+    border-bottom: solid lightgrey 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
 
+  }
   /* hover zit alleen op de desktop versie*/
 
     main > section > article > button > span{
     transition: all 1s;
-}
+  }
     main > section > article > button:hover span {
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -373,5 +371,12 @@ footer form input::placeholder{
 
     footer > form > input[type=text]{
     width: 25em;
+  }
+  footer > ul > li:hover{
+  transition: letter-spacing .5s;
+  border-bottom: solid lightgrey 1px;
+  letter-spacing: 3px;
+  cursor: pointer;
+
   }
 }
