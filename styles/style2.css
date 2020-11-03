@@ -107,14 +107,11 @@ header > nav > ul:nth-of-type(2) li > i{
 
 }
 
-header nav ul li a:hover {
-  border-bottom: solid #FFF 1px;
-  padding: 10px;
-}
 
 header nav ul li a:hover {
-  transition: border-bottom .3s;
-  color: lightgreen;
+  transition: letter-spacing .5s;
+  border-bottom: solid lightgrey 1px;
+  letter-spacing: 3px;
 }
 
 /*gebruik van keyboard */
@@ -195,17 +192,18 @@ main > section > article > h2{
 	font-size: 1em;
 }
 
-main > section > article > button {
-  border: solid #FFF 1px;
-  padding: 1em;
-  font-size: 0.8em;
-  color: white;
-  text-transform: uppercase;
-  background-color: black;
-}
 
-.addcart:hover span {
-    letter-spacing: 2px;
+main > section > article > button{
+  color: white;
+  background-color: transparent;
+  padding: 1em;
+  transition: all 0.3s;
+  border: solid white 1px;
+  font-size: 0.7em;
+} 
+
+main > section > article > button:active{
+    background-color: rgba(255,255,255,0.5);
 }
 
 main > section > article > p:nth-of-type(2){
@@ -239,9 +237,10 @@ footer ul li{
 }
 
 footer > ul > li:hover{
-  border-bottom: solid #FFF 1px;
-  color: lightgreen;
-  transition: border-bottom .3s;
+  transition: letter-spacing .5s;
+  border-bottom: solid lightgrey 1px;
+  letter-spacing: 3px;
+
 }
 
 
@@ -281,6 +280,9 @@ footer form input::placeholder{
    main > section{
     display: contents;
  }
+  main > section > article > button:active{
+    background-color: rgba(255,255,255,0.5);
+ }
 }
 
 @media (min-width: 75em){
@@ -301,11 +303,23 @@ footer form input::placeholder{
     display: contents;
   }
 
-  footer > form > input[type=text]{
-    width: 25em;
+  main > section > article > button {
+    font-size: 1em
   } 
+    footer > form > input[type=text]{
+    width: 25em;
+  }
 
+  /* hover zit alleen op de desktop versie*/
 
+    main > section > article > button > span{
+    transition: all 1s;
+}
+    main > section > article > button:hover span {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+}
 /* Desktop Styles */
 
 @media (min-width: 70em){
@@ -337,11 +351,22 @@ footer form input::placeholder{
 
   }
 
-   button{
+   #button{
     display: none;
   }
   main > section{
     display: contents;
+  }
+
+  main > section > article > button {
+    font-size: 1em
+  }
+    main > section > article > button > span{
+    transition: all 1s;
+  }
+  main > section > article > button:hover span {
+    letter-spacing: 3px;
+    text-transform: uppercase;
   }
 
     footer > form > input[type=text]{
