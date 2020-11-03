@@ -94,6 +94,7 @@ header nav ul li a {
   color: white;
   padding: 10px;
   text-transform: uppercase;
+  cursor: default;
 }
 
 header nav ul li {
@@ -108,10 +109,9 @@ header > nav > ul:nth-of-type(2) li > i{
 }
 
 
-header nav ul li a:hover {
-  transition: letter-spacing .5s;
-  border-bottom: solid lightgrey 1px;
-  letter-spacing: 3px;
+header nav ul li a:active{
+  background-color: rgba(255,255,255,0.5);
+  cursor: default;
 }
 
 /*gebruik van keyboard */
@@ -262,7 +262,7 @@ footer form input::placeholder{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-   main > section > article:nth-of-type(3){
+  main > section > article:nth-of-type(3){
     display: grid;
     grid-column: span 2;
   }
@@ -270,7 +270,7 @@ footer form input::placeholder{
    footer > form > input[type=text]{
     width: 25em;
   }
-   main > section{
+  main > section{
     display: contents;
  }
   main > section > article > button:active{
@@ -282,6 +282,17 @@ footer form input::placeholder{
   body {
 
   } 
+
+  header nav ul li a:hover {
+  transition: letter-spacing .5s;
+  border-bottom: solid lightgrey 1px;
+  letter-spacing: 3px;
+  }
+
+   header nav ul li a:active{
+    cursor: pointer;
+  }
+
   main {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -299,6 +310,16 @@ footer form input::placeholder{
   main > section > article > button {
     font-size: 1em
   } 
+  /* hover zit alleen op de desktop versie*/
+
+  main > section > article > button > span{
+    transition: all 1s;
+  }
+  main > section > article > button:hover span {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
   footer > form > input[type=text]{
     width: 25em;
   }
@@ -306,17 +327,6 @@ footer form input::placeholder{
     transition: letter-spacing .5s;
     border-bottom: solid lightgrey 1px;
     letter-spacing: 3px;
-    cursor: pointer;
-
-  }
-  /* hover zit alleen op de desktop versie*/
-
-    main > section > article > button > span{
-    transition: all 1s;
-  }
-    main > section > article > button:hover span {
-    letter-spacing: 3px;
-    text-transform: uppercase;
     cursor: pointer;
   }
 }
@@ -342,6 +352,16 @@ footer form input::placeholder{
     align-self: center;
   }
 
+  header nav ul li a:hover {
+  transition: letter-spacing .5s;
+  border-bottom: solid lightgrey 1px;
+  letter-spacing: 3px;
+  }
+
+  header nav ul li a:active{
+    cursor: pointer;
+  }
+
   .mobile {
     display: none !important;
   }
@@ -354,6 +374,7 @@ footer form input::placeholder{
    #button{
     display: none;
   }
+
   main > section{
     display: contents;
   }
@@ -361,15 +382,16 @@ footer form input::placeholder{
   main > section > article > button {
     font-size: 1em
   }
-    main > section > article > button > span{
+  main > section > article > button > span{
     transition: all 1s;
   }
   main > section > article > button:hover span {
     letter-spacing: 3px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
-    footer > form > input[type=text]{
+  footer > form > input[type=text]{
     width: 25em;
   }
   footer > ul > li:hover{
