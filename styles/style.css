@@ -40,6 +40,7 @@ header {
 
 .mobile {
   max-height: 0;
+  transition: 1s;
 }
 
 .desktop {
@@ -79,9 +80,7 @@ header a img {
 
 .open {
   right:0;
-  transition: 1s ease-out;
   max-height: 35em;
-  opacity: 2;
 }
 
 header nav ul {
